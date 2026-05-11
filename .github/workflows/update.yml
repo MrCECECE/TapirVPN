@@ -9,18 +9,26 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      TZ: Europe/Moscow
+
     steps:
       - uses: actions/checkout@v4
 
       - name: Fetch, Clean & Merge Subscriptions
         run: |
           curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt" -o sub1.txt
-          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt" -o sub2.txt
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS%2BAll_RUS.txt" -o sub2.txt
           
-          # 🔧 ИСПРАВЛЕНО: добавлен hysteria2 в список протоколов
+          echo "📊 sub1.txt строк: $(wc -l < sub1.txt)"
+          echo "📊 sub2.txt строк: $(wc -l < sub2.txt)"
+          
           clean_subs() {
-            grep -E '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' "$1" 2>/dev/null || true
+            grep -E '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' "$1" 2>/dev/null | grep -v '^$' || true
           }
+          
+          MOSCOW_TIME=$(TZ=Europe/Moscow date +'%Y-%m-%d %H:%M MSK')
           
           {
             echo "# profile-title: 🦡TapirVPN"
@@ -29,23 +37,30 @@ jobs:
             echo "# ping-type: proxy"
             echo "# check-url-via-proxy: https://cp.cloudflare.com/generate_204"
             echo "# profile-update-interval: 1"
-            echo "# Merged: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            echo "# Merged: $MOSCOW_TIME"
             echo ""
           } > subscription.txt
           
+          echo "📥 Обрабатываю BLACK_VLESS_RUS.txt..."
           clean_subs sub1.txt >> subscription.txt
+          
+          echo "📥 Обрабатываю BLACK_SS+All_RUS.txt..."
           clean_subs sub2.txt >> subscription.txt
           
-          # 🔧 ИСПРАВЛЕНО: считаем ВСЕ протоколы, включая hysteria2
-          COUNT=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt || echo 0)
-          echo "✅ Всего серверов в объединённой подписке: $COUNT"
+          echo "📊 Статистика после объединения:"
+          echo "   vless: $(grep -c '^vless://' subscription.txt 2>/dev/null || echo 0)"
+          echo "   hysteria2: $(grep -c '^hysteria2://' subscription.txt 2>/dev/null || echo 0)"
+          echo "   ss: $(grep -c '^ss://' subscription.txt 2>/dev/null || echo 0)"
+          
+          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt 2>/dev/null || echo 0)
+          echo "✅ ВСЕГО серверов: $TOTAL (обновлено в $MOSCOW_TIME)"
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add subscription.txt
-          # 🔧 ИСПРАВЛЕНО: в сообщении коммита тоже учитываем hysteria2
-          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|hysteria2)://' subscription.txt || echo 0)
-          git commit -m "Auto-merge: $(date -u +'%Y-%m-%d %H:%M UTC') | $TOTAL servers" || echo "No changes"
+          MOSCOW_TIME=$(TZ=Europe/Moscow date +'%Y-%m-%d %H:%M MSK')
+          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|hysteria2)://' subscription.txt 2>/dev/null || echo 0)
+          git commit -m "Auto-merge $MOSCOW_TIME | $TOTAL servers" || echo "No changes"
           git push
