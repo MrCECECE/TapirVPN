@@ -18,50 +18,16 @@ jobs:
 
       - name: Fetch, Clean & Merge Subscriptions
         run: |
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "🔍 DEBUG: Начало загрузки подписок"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
           URL1="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt"
           URL2="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt"
 
-          # --compressed автоматически распаковывает gzip/deflate ответы
-          HTTP1=$(curl -sL --compressed --fail -w "%{http_code}" "$URL1" -o sub1.txt 2>&1)
-          echo "🌐 HTTP sub1.txt: $HTTP1 | размер: $(wc -c < sub1.txt) байт | строк: $(wc -l < sub1.txt)"
+          curl -sL --compressed --fail "$URL1" -o sub1.txt || { echo "❌ Ошибка загрузки sub1.txt"; exit 1; }
+          curl -sL --compressed --fail "$URL2" -o sub2.txt || { echo "❌ Ошибка загрузки sub2.txt"; exit 1; }
 
-          HTTP2=$(curl -sL --compressed --fail -w "%{http_code}" "$URL2" -o sub2.txt 2>&1)
-          echo "🌐 HTTP sub2.txt: $HTTP2 | размер: $(wc -c < sub2.txt) байт | строк: $(wc -l < sub2.txt)"
-
-          echo ""
-          echo "🔬 Тип файла sub1.txt: $(file sub1.txt)"
-          echo "🔬 Тип файла sub2.txt: $(file sub2.txt)"
-
-          echo ""
-          echo "🔬 Первые 3 строки sub1.txt:"
-          head -3 sub1.txt
-          echo ""
-          echo "🔬 Первые 3 строки sub2.txt:"
-          head -3 sub2.txt
-
-          echo ""
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "🔍 DEBUG: Протоколы в исходниках (до очистки)"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
-          # -a = обрабатывать бинарные файлы как текст
-          for proto in vless vmess trojan ss hysteria2 tuic wireguard; do
-            C1=$(grep -ca "^${proto}://" sub1.txt 2>/dev/null || echo 0)
-            C2=$(grep -ca "^${proto}://" sub2.txt 2>/dev/null || echo 0)
-            echo "   ${proto}: sub1=$C1, sub2=$C2"
-          done
-
-          echo ""
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "⚙️  Очистка и объединение"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📄 sub1.txt: $(wc -l < sub1.txt) строк"
+          echo "📄 sub2.txt: $(wc -l < sub2.txt) строк"
 
           clean_subs() {
-            # -a = бинарный как текст, убираем \r, фильтруем протоколы
             grep -a -E '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' "$1" \
               | sed 's/\r//' \
               | grep -v '^$' \
@@ -81,33 +47,11 @@ jobs:
             echo ""
           } > subscription.txt
 
-          echo "📥 Обрабатываю BLACK_VLESS_RUS.txt..."
-          BEFORE=$(wc -l < subscription.txt)
           clean_subs sub1.txt >> subscription.txt
-          AFTER=$(wc -l < subscription.txt)
-          echo "   Добавлено: $((AFTER - BEFORE)) серверов"
-
-          echo "📥 Обрабатываю BLACK_SS+All_RUS.txt..."
-          BEFORE=$(wc -l < subscription.txt)
           clean_subs sub2.txt >> subscription.txt
-          AFTER=$(wc -l < subscription.txt)
-          echo "   Добавлено: $((AFTER - BEFORE)) серверов"
 
-          echo ""
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "📊 Итоговая статистика subscription.txt"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-
-          for proto in vless vmess trojan ss hysteria2 tuic wireguard; do
-            COUNT=$(grep -c "^${proto}://" subscription.txt 2>/dev/null || echo 0)
-            if [ "$COUNT" -gt 0 ]; then
-              echo "   $proto: $COUNT"
-            fi
-          done
-
-          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt 2>/dev/null || echo 0)
-          echo ""
-          echo "✅ ВСЕГО серверов: $TOTAL (обновлено в $MOSCOW_TIME)"
+          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt || echo 0)
+          echo "✅ Итого серверов: $TOTAL (обновлено в $MOSCOW_TIME)"
 
       - name: Commit & Push
         run: |
@@ -115,12 +59,11 @@ jobs:
           git config user.email "github-actions@github.com"
           git add subscription.txt
           MOSCOW_TIME=$(TZ=Europe/Moscow date +'%Y-%m-%d %H:%M MSK')
-          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt 2>/dev/null || echo 0)
-          git diff --cached --stat
+          TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt || echo 0)
           if git diff --cached --quiet; then
-            echo "⚠️ Нет изменений — subscription.txt не изменился"
+            echo "⚠️ Нет изменений — пропускаем коммит"
           else
             git commit -m "Auto-merge $MOSCOW_TIME | $TOTAL servers"
             git push
-            echo "✅ Запушено успешно"
+            echo "✅ Запушено: $TOTAL серверов"
           fi
