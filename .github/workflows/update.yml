@@ -1,0 +1,52 @@
+name: Merge & Patch Happ Subscription
+on:
+  schedule:
+    - cron: '0 * * * *'  # Запуск каждый час
+  workflow_dispatch:     # Ручной запуск по кнопке
+
+jobs:
+  merge-and-patch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch, Clean & Merge Subscriptions
+        run: |
+          # Скачиваем обе подписки
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt" -o sub1.txt
+          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt" -o sub2.txt
+          
+          # Функция: убрать заголовки (строки с #) и оставить только прокси-ссылки
+          clean_subs() {
+            grep -E '^(vless|vmess|trojan|ss|ssr|hysteria|tuic|wireguard)://' "$1" 2>/dev/null || true
+          }
+          
+          # Создаём единый заголовок с параметрами для Happ
+          {
+            echo "# profile-title: 🦡TapirVPN"
+            echo "# subscription-autoconnect: 1"
+            echo "# subscription-autoconnect-type: lowestdelay"
+            echo "# ping-type: proxy"
+            echo "# check-url-via-proxy: https://cp.cloudflare.com/generate_204"
+            echo "# profile-update-interval: 1"
+            echo "# Merged: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            echo ""
+          } > subscription.txt
+          
+          # Добавляем очищенные серверы из обеих подписок
+          clean_subs sub1.txt >> subscription.txt
+          clean_subs sub2.txt >> subscription.txt
+          
+          # Считаем итоговое количество серверов (для лога)
+          COUNT=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|tuic|wireguard)://' subscription.txt || echo 0)
+          echo "✅ Всего серверов в объединённой подписке: $COUNT"
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add subscription.txt
+          git commit -m "Auto-merge: $(date -u +'%Y-%m-%d %H:%M UTC') | $(grep -cE '^(vless|vmess|trojan|ss)://' subscription.txt || echo 0) servers" || echo "No changes"
+          git push
