@@ -18,18 +18,97 @@ jobs:
 
       - name: Fetch, Clean & Merge Subscriptions
         run: |
-          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt" -o sub1.txt
-          curl -sL "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS%2BAll_RUS.txt" -o sub2.txt
-          
-          echo "📊 sub1.txt строк: $(wc -l < sub1.txt)"
-          echo "📊 sub2.txt строк: $(wc -l < sub2.txt)"
-          
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔍 DEBUG: Начало загрузки подписок"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          URL1="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt"
+          URL2="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt"
+
+          echo "📡 URL1: $URL1"
+          echo "📡 URL2: $URL2"
+
+          # Скачиваем с подробным выводом HTTP-кода
+          HTTP1=$(curl -sL --fail -w "%{http_code}" "$URL1" -o sub1.txt 2>&1)
+          echo "🌐 HTTP статус sub1.txt: $HTTP1"
+          if [ "$HTTP1" != "200" ]; then
+            echo "❌ ОШИБКА: Не удалось скачать sub1.txt (HTTP $HTTP1)"
+            echo "🔄 Пробую с %2B кодированием..."
+            HTTP1_ALT=$(curl -sL --fail -w "%{http_code}" "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt" -o sub1.txt 2>&1)
+            echo "🌐 HTTP статус (alt): $HTTP1_ALT"
+          fi
+
+          HTTP2=$(curl -sL --fail -w "%{http_code}" "$URL2" -o sub2.txt 2>&1)
+          echo "🌐 HTTP статус sub2.txt: $HTTP2"
+          if [ "$HTTP2" != "200" ]; then
+            echo "❌ ОШИБКА: Не удалось скачать sub2.txt (HTTP $HTTP2)"
+            echo "🔄 Пробую с %2B кодированием..."
+            HTTP2_ALT=$(curl -sL --fail -w "%{http_code}" "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS%2BAll_RUS.txt" -o sub2.txt 2>&1)
+            echo "🌐 HTTP статус (alt): $HTTP2_ALT"
+          fi
+
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔍 DEBUG: Анализ скачанных файлов"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          echo "📄 sub1.txt — размер: $(wc -c < sub1.txt) байт, строк: $(wc -l < sub1.txt)"
+          echo "📄 sub2.txt — размер: $(wc -c < sub2.txt) байт, строк: $(wc -l < sub2.txt)"
+
+          echo ""
+          echo "🔬 Первые 5 строк sub1.txt:"
+          head -5 sub1.txt | cat -A
+          echo ""
+          echo "🔬 Первые 5 строк sub2.txt:"
+          head -5 sub2.txt | cat -A
+
+          echo ""
+          echo "🔬 Проверка на Windows line endings (\\r):"
+          CRLF1=$(grep -cP '\r' sub1.txt 2>/dev/null || echo 0)
+          CRLF2=$(grep -cP '\r' sub2.txt 2>/dev/null || echo 0)
+          echo "   sub1.txt CRLF строк: $CRLF1"
+          echo "   sub2.txt CRLF строк: $CRLF2"
+
+          echo ""
+          echo "🔬 Проверка на BOM-символы:"
+          BOM1=$(head -c 3 sub1.txt | xxd | head -1)
+          BOM2=$(head -c 3 sub2.txt | xxd | head -1)
+          echo "   sub1.txt первые байты: $BOM1"
+          echo "   sub2.txt первые байты: $BOM2"
+
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔍 DEBUG: Протоколы в исходниках (до очистки)"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          for proto in vless vmess trojan ss ssr hysteria hysteria2 tuic wireguard; do
+            C1=$(grep -c "^${proto}://" sub1.txt 2>/dev/null || echo 0)
+            C2=$(grep -c "^${proto}://" sub2.txt 2>/dev/null || echo 0)
+            if [ "$C1" -gt 0 ] || [ "$C2" -gt 0 ]; then
+              echo "   $proto:// → sub1: $C1, sub2: $C2"
+            fi
+          done
+
+          echo ""
+          echo "🔬 Строки НЕ подходящие под фильтр (первые 10 из каждого файла):"
+          echo "   --- sub1.txt нераспознанные ---"
+          grep -vE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' sub1.txt | grep -v '^#' | grep -v '^$' | head -10 | sed 's/^/   /'
+          echo "   --- sub2.txt нераспознанные ---"
+          grep -vE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' sub2.txt | grep -v '^#' | grep -v '^$' | head -10 | sed 's/^/   /'
+
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "⚙️  Очистка и объединение"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
           clean_subs() {
-            grep -E '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' "$1" 2>/dev/null | grep -v '^$' || true
+            # Убираем \r, BOM, пробелы в начале строки, затем фильтруем
+            sed 's/\r//' "$1" | sed 's/^\xEF\xBB\xBF//' | sed 's/^[[:space:]]*//' | \
+            grep -E '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' 2>/dev/null | grep -v '^$' || true
           }
-          
+
           MOSCOW_TIME=$(TZ=Europe/Moscow date +'%Y-%m-%d %H:%M MSK')
-          
+
           {
             echo "# profile-title: 🦡TapirVPN"
             echo "# subscription-autoconnect: 1"
@@ -40,19 +119,33 @@ jobs:
             echo "# Merged: $MOSCOW_TIME"
             echo ""
           } > subscription.txt
-          
+
           echo "📥 Обрабатываю BLACK_VLESS_RUS.txt..."
+          BEFORE=$(wc -l < subscription.txt)
           clean_subs sub1.txt >> subscription.txt
-          
+          AFTER=$(wc -l < subscription.txt)
+          echo "   Добавлено строк: $((AFTER - BEFORE))"
+
           echo "📥 Обрабатываю BLACK_SS+All_RUS.txt..."
+          BEFORE=$(wc -l < subscription.txt)
           clean_subs sub2.txt >> subscription.txt
-          
-          echo "📊 Статистика после объединения:"
-          echo "   vless: $(grep -c '^vless://' subscription.txt 2>/dev/null || echo 0)"
-          echo "   hysteria2: $(grep -c '^hysteria2://' subscription.txt 2>/dev/null || echo 0)"
-          echo "   ss: $(grep -c '^ss://' subscription.txt 2>/dev/null || echo 0)"
-          
+          AFTER=$(wc -l < subscription.txt)
+          echo "   Добавлено строк: $((AFTER - BEFORE))"
+
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 Итоговая статистика subscription.txt"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+          for proto in vless vmess trojan ss ssr hysteria hysteria2 tuic wireguard; do
+            COUNT=$(grep -c "^${proto}://" subscription.txt 2>/dev/null || echo 0)
+            if [ "$COUNT" -gt 0 ]; then
+              echo "   $proto: $COUNT"
+            fi
+          done
+
           TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|ssr|hysteria|hysteria2|tuic|wireguard)://' subscription.txt 2>/dev/null || echo 0)
+          echo ""
           echo "✅ ВСЕГО серверов: $TOTAL (обновлено в $MOSCOW_TIME)"
 
       - name: Commit & Push
@@ -62,5 +155,6 @@ jobs:
           git add subscription.txt
           MOSCOW_TIME=$(TZ=Europe/Moscow date +'%Y-%m-%d %H:%M MSK')
           TOTAL=$(grep -cE '^(vless|vmess|trojan|ss|hysteria2)://' subscription.txt 2>/dev/null || echo 0)
-          git commit -m "Auto-merge $MOSCOW_TIME | $TOTAL servers" || echo "No changes"
+          git diff --cached --stat
+          git commit -m "Auto-merge $MOSCOW_TIME | $TOTAL servers" || echo "No changes to commit"
           git push
