@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-11 22:21 MSK
+# Merged: 2026-05-11 22:24 MSK
 
 vless://d11a928e-5d3d-4256-9227-55dccf509ccf@bg.c2horizon.app:443?type=tcp&headerType=none&security=reality&encryption=none&sni=bg.c2horizon.app&fp=qq&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&sid=122218f4c1f172e4&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D
 vless://9296d79d-82ad-4f97-939b-9971ffc21f54@144.31.226.196:443?type=xhttp&headerType=none&security=reality&encryption=none&sni=my.u1host.com&fp=chrome&pbk=Qm-rAcNxEGR8ITCJjQ5co_76cLx6bpJLMYfwlslm6AE&sid=e370424b9ff6d2bd&path=%2Fapi%2Fv1%2Fdata#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
