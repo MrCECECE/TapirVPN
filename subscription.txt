@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-14 02:46 MSK
+# Merged: 2026-05-14 04:56 MSK
 
 vless://30ac5a8b-5022-43c0-b0c2-11b9a98a986e@3.106.54.135:57001?type=tcp&encryption=none&security=reality&pbk=aSK0B0bgRalAWw_5d7buTjy4dYLF2WGTZhUojypI618&fp=firefox&sni=yahoo.com&sid=b2dd66706eb2&spx=/&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%BA%20Australia%2C%20Sydney%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://3c7961e6-6ce7-4e55-8b8a-01a5d663efd4@3.106.214.88:31318?type=tcp&encryption=none&security=reality&pbk=uAhNpK_fDxgKKNtYtUs2uB79V28pjFv1-Mh7D4PTaW8&fp=firefox&sni=www.tesla.com&sid=1b665f78655294&spx=/&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%BA%20Australia%2C%20Sydney%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
