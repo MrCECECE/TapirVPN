@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-16 23:36 MSK
+# Merged: 2026-05-17 00:37 MSK
 
 vless://71YSnbgp2vMtQ2jf9O9tqU@72.56.34.153:443?encryption=none&security=tls&sni=ee5.alice&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
 vless://f1683f38-ace3-4eca-805b-af81663431e5@51.75.158.2:443?type=ws&headerType=none&security=none&encryption=none&path=%2Fwstwip&host=2ip.io#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
