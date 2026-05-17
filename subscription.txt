@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-17 15:51 MSK
+# Merged: 2026-05-17 17:19 MSK
 
 vless://5234854d-106b-41ee-8fc7-4acc6a1158a2@fi1.persik.host:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=XfPQWevD1SzZqZFH9OwgpZMtn32lXcGtHBL8HpTeazI&sid=895edc3d&sni=fi1.persik.host#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://40e4f61a-46b3-4e0a-8f81-451ff6550706@151.101.97.67:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=127.0.0.1&fp=chrome&alpn=h3&path=%2F&host=ovh44.global.ssl.fastly.net&insecure=1#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
