@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-17 18:48 MSK
+# Merged: 2026-05-17 19:43 MSK
 
 vless://5444090d-df19-4b22-942c-904666758940@5.181.20.165:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=1Bdy60YD69ATBKLLsZ6Z6a39_VX-OlxyByeg7GbfThc&sid=41d9cd02&sni=crates.io#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://5fb4beab-89b7-48b4-9517-172a4221cbad@fl3-cloud.onnstreaming.ru:443?type=tcp&security=reality&encryption=none&pbk=yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE&fp=chrome&sni=fl3-cloud.onnstreaming.ru&sid=9b763beeb4b0f51c&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Turku%20%7C%20%5BBL%5D
