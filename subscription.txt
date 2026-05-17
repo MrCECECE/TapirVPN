@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-17 11:06 MSK
+# Merged: 2026-05-17 13:16 MSK
 
 vless://40e4f61a-46b3-4e0a-8f81-451ff6550706@151.101.97.67:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=127.0.0.1&fp=chrome&alpn=h3&path=%2F&host=ovh13.global.ssl.fastly.net&insecure=1#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://40e4f61a-46b3-4e0a-8f81-451ff6550706@151.101.97.67:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=127.0.0.1&fp=chrome&alpn=h3&path=%2F&host=ovh44.global.ssl.fastly.net&insecure=1#%F0%9F%87%AB%F0%9F%87%B7%20France%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
