@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-18 22:21 MSK
+# Merged: 2026-05-18 23:59 MSK
 
 vless://07e326bb-801c-49fc-9005-d2a3e9673e89@sbl.mangshe.xyz:2055#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
 vless://07e326bb-801c-49fc-9005-d2a3e9673e89@sbl.mangshe.xyz:2055?encryption=none&security=none&type=tcp&headerType=none&host=sbl.mangshe.xyz#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
