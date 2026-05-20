@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-21 00:28 MSK
+# Merged: 2026-05-21 02:03 MSK
 
 vless://b43a13be-150c-4a6a-8501-b71c1b6476fb@srv152.towersflowerss.com:64534?type=ws&headerType=none&security=none&encryption=none&sni=srv152.towersflowerss.com&fp=chrome&path=%2F#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%7C%20%5BBL%5D
 vless://6c078981-6be2-440d-9d3f-57001eb0e108@94.125.103.202:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.icloud.com&fp=chrome&pbk=yBOhM43hsg1qosfN28aq_N09y8qsX4hR0Cyq_PwROCM&sid=4060e9670be0&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D
