@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-24 01:40 MSK
+# Merged: 2026-05-24 02:45 MSK
 
 vless://690cff03-0a82-457a-8532-4a83491458fb@am.synatra.net:4430?type=tcp&headerType=none&security=reality&encryption=none&sni=deepl.com&fp=chrome&pbk=ve_gRq67ZmwVXig3oTSuvgh0UHLktlcwyI5XYP4UMyg&sid=657e6f4ccdb8a092&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%B2%20Armenia%2C%20Yerevan%20%7C%20%5BBL%5D
 vless://6219565d-2c9d-41af-8010-08a99dffc68e@au.clickvpn.work:44223?type=tcp&headerType=none&security=reality&encryption=none&sni=aws.amazon.com&fp=chrome&pbk=aD-lWNqnOwP2E4fHZx5Jt-kFoVwr3dvNQS_xVvFGkRw&sid=0e&spx=%2F#%F0%9F%87%A6%F0%9F%87%BA%20Australia%2C%20Sydney%20%7C%20%5BBL%5D
