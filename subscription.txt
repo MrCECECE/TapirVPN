@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-23 13:19 MSK
+# Merged: 2026-05-23 14:52 MSK
 
 vless://5e1083b9-4d4f-50ef-93e7-6e966dfce1f9@argentina.cloudpath.live:443?fp=chrome&fragment=100-200%2C10-20%2Ctlshello&mux=true&muxconcurrency=8&pbk=leqUE6E3V7DNPI9Ia_5YwJHwl8mW3RfQFcswL3eZFkM&security=reality&sid=95193833&sni=microsoft.com&type=tcp#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Buenos%20Aires%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@argentina.cloudpath.live:443?fp=chrome&fragment=100-200%2C10-20%2Ctlshello&mux=true&muxconcurrency=8&pbk=leqUE6E3V7DNPI9Ia_5YwJHwl8mW3RfQFcswL3eZFkM&security=reality&sid=95193833&sni=microsoft.com&type=tcp#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Buenos%20Aires%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
