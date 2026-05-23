@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-23 18:52 MSK
+# Merged: 2026-05-23 19:45 MSK
 
 vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@argentina.cloudpath.live:443?type=tcp&security=reality&sni=microsoft.com&pbk=leqUE6E3V7DNPI9Ia_5YwJHwl8mW3RfQFcswL3eZFkM&sid=95193833&fp=chrome&mux=true&muxConcurrency=8&fragment=100-200,10-20,tlshello#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Buenos%20Aires%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@australia.cloudpath.live:443?type=tcp&security=reality&sni=microsoft.com&pbk=Ovu-MEOWU1tUI8ppfuaGosmbiQLFaVY8YwZLKfMDhF4&sid=2c0157f1&fp=chrome&mux=true&muxConcurrency=8&fragment=100-200,10-20,tlshello#%F0%9F%87%A6%F0%9F%87%BA%20Australia%2C%20Bondi%20Beach%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
