@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-26 00:59 MSK
+# Merged: 2026-05-26 02:01 MSK
 
 vless://3cd6b23d-de65-43c7-9926-f36cada0e4ad@dk01.kubservice.icu:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=dk01.kubservice.icu&fp=qq&security=reality&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sid=#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%2C%20R%C3%B8dding%20%7C%20%5BBL%5D
 vless://f4d74570-934c-44a2-9639-73598dde77de@ee.nodes.rocketnetwork.ru:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ee.nodes.rocketnetwork.ru&fp=chrome&security=reality&pbk=Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs&sid=428ef87fd47a3a32#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
