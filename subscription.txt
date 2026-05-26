@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-26 13:39 MSK
+# Merged: 2026-05-26 16:44 MSK
 
 vless://6b435511-6abb-46e3-85fd-709bcc5882ee@finland-1.afihideos.ru:443?type=tcp&headerType=none&security=reality&encryption=none&sni=finland-1.afihideos.ru&fp=chrome&pbk=Ll3YSjSgdnZ0UahskfjLoyagjeBR3rJBwVKAY95kk1E&sid=a1b2c3d4&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://6b435511-6abb-46e3-85fd-709bcc5882ee@ru1.bloodofwar.ru:443?type=tcp&headerType=none&security=reality&encryption=none&sni=tradingview.com&fp=chrome&pbk=hd4dEiJ3ba7pm7kUF9l4DYAm6M34do8TO6QEprgqFl0&sid=a1b2c3d4&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
