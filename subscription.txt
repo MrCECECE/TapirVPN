@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-28 20:54 MSK
+# Merged: 2026-05-28 23:02 MSK
 
 vless://48d7e2e5-6ddc-434f-a5e5-c53b9e2f6301@109.69.218.212:443?security=reality&encryption=none&echfq=none&pbk=KfKYcURcfQ207VZCXG4g2cxltWvG2Zk7j3WCjvpa8Sg&headerType=none&fp=randomized&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ns.passwd.space#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Mont-Saint-Guibert%20%7C%20%5BBL%5D
 vless://1b43419a-b711-40d4-a0ee-eb5c73e60c92@den.n1etwork.prostosetup.org:443?security=reality&encryption=none&pbk=K1pl5IAOi7N5MUQIvv-35fQcpxgz9uLW5Dv45a2tmRc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=github.com&sid=50#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
