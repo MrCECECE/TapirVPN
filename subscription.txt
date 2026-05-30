@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-30 14:10 MSK
+# Merged: 2026-05-30 15:58 MSK
 
 vless://52f2d259-d26a-4e7e-8cf4-36b75c77bfff@45.192.12.207:443?authority=&encryption=none&fp=firefox&pbk=pxa1kOV5uKR6voUmwkiIv_AXVVMLZ5208SFNm_qWllg&security=reality&serviceName=www.amd.com&sid=05952086d965&sni=www.amd.com&spx=%2F5cvci4vsehpIg7Z&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%5BBL%5D
 vless://62470850-6875-4008-b773-925d7ad510a0@199.34.228.53:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=my.pars-cdn.ir&fp=chrome&alpn=h2%2Chttp%2F1.1&path=%2FTelegram-Zedmodeon&insecure=1#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
