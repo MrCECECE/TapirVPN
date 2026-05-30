@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-30 19:55 MSK
+# Merged: 2026-05-30 20:56 MSK
 
 vless://758ac7b5-bebf-4996-ba38-e8bde361e212@hr.epsteinisland.site:2053?encryption=none&type=ws&path=/&host=google.com#%F0%9F%87%AD%F0%9F%87%B7%20Croatia%2C%20Zagreb%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://62470850-6875-4008-b773-925d7ad510a0@199.34.228.53:443?encryption=none&type=xhttp&mode=auto&path=%2FTelegram-Zedmodeon&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&sni=my.pars-cdn.ir#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
