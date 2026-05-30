@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-05-30 17:27 MSK
+# Merged: 2026-05-30 18:57 MSK
 
 vless://41d480fd-1dcc-4766-8e01-a67e7faa5934@129.6.29.253:443?encryption=none&type=ws&security=tls&path=/id-amz&host=investors.spotify.com.cyylr.eu.cc&sni=investors.spotify.com.cyylr.eu.cc&alpn=http/1.1&fp=chrome&allowInsecure=0#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://62470850-6875-4008-b773-925d7ad510a0@199.34.228.53:443?encryption=none&type=xhttp&mode=auto&path=%2FTelegram-Zedmodeon&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&sni=my.pars-cdn.ir#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
