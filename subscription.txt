@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-01 01:45 MSK
+# Merged: 2026-06-01 02:54 MSK
 
 vless://9a4e8fce-22ac-4e32-bada-f854ee737ec9@finland11.banovano.space:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.icloud.com&fp=chrome&pbk=2VJpo3kXJl9inZRLlXn65LvBUTyaHPmhggfQlzoAzkA&sid=655e55861e&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?encryption=none&security=tls&sni=69565ce3109804e7813f98ee.mmdbay.blog&type=ws&host=69565ce3109804e7813f98ee.mmdbay.blog&path=%2Fgraphql#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
