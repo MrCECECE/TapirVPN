@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-06 02:58 MSK
+# Merged: 2026-06-06 05:47 MSK
 
 vless://9cab10a8-7936-457f-bf1f-b9842439f494@ar.vpnburger.ru:443?type=grpc&headerType=none&security=reality&encryption=none&sni=gentoo.ubuntuhosting.host&fp=chrome&pbk=QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng&sid=3fa234ea9feaa048&serviceName=gun#%F0%9F%87%A6%F0%9F%87%B2%20Armenia%2C%20Yerevan%20%7C%20%5BBL%5D
 vless://a2415a12-3f92-4636-9823-9828d3ceb818@103.119.19.179:8443?type=tcp&security=reality&pbk=vo6Xrwkla8OBS5O6lEinNvHXxW8DxCmb8HGHD86VzkU&fp=firefox&sni=www.google.com&sid=0e#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
