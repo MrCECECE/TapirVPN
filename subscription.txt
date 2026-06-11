@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-11 23:22 MSK
+# Merged: 2026-06-12 01:45 MSK
 
 vless://93796b65-0d32-4fcc-987c-16c97ecf44c2@87.121.112.104:443?flow=xtls-rprx-vision&fp=firefox&pbk=Js_ZC-0R1kzvury1NcJemynfbNs3Z3tBupqW0VVPF1U&security=reality&sid=1d5c3da9db1d5a7d&sni=nohungary.live&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%28g.k.%20Mladost%201A%29%20%7C%20%5BBL%5D
 vless://93796b65-0d32-4fcc-987c-16c97ecf44c2@87.121.112.117:443?flow=xtls-rprx-vision&fp=firefox&pbk=3w72rLVzB7BUQShRZgcx0bfIypi6_vtKY5XLrw0UQH8&security=reality&sni=polandchehia.life&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%28g.k.%20Mladost%201A%29%20%7C%20%5BBL%5D
