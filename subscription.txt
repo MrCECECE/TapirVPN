@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-14 01:04 MSK
+# Merged: 2026-06-14 02:55 MSK
 
 vless://a7896b5b-1c7d-4148-9429-fcdf949137bf@151.101.7.243:80?mode=auto&path=/&security=&encryption=none&host=kakapi.global.ssl.fastly.net&type=xhttp#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://4d37001f-ca6c-4f9d-8355-6f0912258b20@45.198.105.231:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=storage.yandex.net&fp=firefox&pbk=pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8&sid=d3ee47fc2f553c44&flow=xtls-rprx-vision#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%7C%20%5BBL%5D
