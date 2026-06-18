@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-18 23:06 MSK
+# Merged: 2026-06-19 01:49 MSK
 
 vless://d483746d-3362-4280-9b89-6a2e49aa9397@94.125.103.28:2761?type=tcp&headerType=none&security=reality&encryption=none&sni=nl.xanka.best&fp=firefox&pbk=d9ncsYIjJIiCaqLszDyLhZoZ9-XMYYhBrlHUyuHFxQo&sid=a4e1fd84&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D
 vless://d483746d-3362-4280-9b89-6a2e49aa9397@nl.xanka.best:2761?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=d9ncsYIjJIiCaqLszDyLhZoZ9-XMYYhBrlHUyuHFxQo&security=reality&sid=a4e1fd84&sni=nl.xanka.best&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D
