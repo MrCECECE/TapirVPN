@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-18 02:14 MSK
+# Merged: 2026-06-18 05:29 MSK
 
 vless://a7896b5b-1c7d-4148-9429-fcdf949137bf@151.101.7.243:80?mode=auto&path=%2F&security=&encryption=none&host=kakapi.global.ssl.fastly.net&type=xhttp#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://43488128-319e-f480-64ea-0acdc712e2a8@185.164.35.37:443?encryption=none&type=tcp&security=reality&pbk=wPDTWjK4PYbOlruZOvX64vVS9tkOPSM6X4Ymg-FzvxY&sid=ad9cf8818428d847&flow=xtls-rprx-vision&sni=www.hyundai.com#%F0%9F%87%A7%F0%9F%87%A6%20Bosnia%20and%20Herzegovina%2C%20Novi%20Travnik%20%7C%20%5BBL%5D
