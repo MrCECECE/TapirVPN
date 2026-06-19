@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-20 01:02 MSK
+# Merged: 2026-06-20 02:57 MSK
 
 vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@217.217.247.252:443?type=tcp&headerType=none&security=reality&encryption=none&sni=enterprisekitten.com&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://97b073c7-1dc5-47d9-9bcd-29e21b6db141@free02.tunnely.ru:8080?encryption=none&type=ws&path=%2Fws%2F&security=none#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
