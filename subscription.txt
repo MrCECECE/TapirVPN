@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-21 22:10 MSK
+# Merged: 2026-06-22 00:01 MSK
 
 vless://07ce63a0-7fc0-47e0-bf9d-4a10d31c0b1a@68.210.184.141:444?mode=gun&security=reality&encryption=none&pbk=OKSZr7AAsHRtaGMJMpRUibQAXiQKGQ3NR4osIdi9p2Y&fp=random&spx=%2F&type=grpc&sni=yahoo.com&sid=41#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%7C%20%5BBL%5D
 vless://e13efb4a-6739-4018-9789-0597a1451bd0@185.200.196.68:443?fp=firefox&mode=gun&pbk=TleO2NpQAVohMUsmgQrR-QZuUbwYw-57kn3Lhcqt43c&security=reality&serviceName=grpc&sid=9c96420532ebe46c&sni=www.samsung.com&type=grpc#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
