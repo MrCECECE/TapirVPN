@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-21 11:52 MSK
+# Merged: 2026-06-21 14:37 MSK
 
 vless://5c417415-5c79-4447-a8bd-fd9f73a89fb9@85.155.228.52:443?flow=xtls-rprx-vision&fp=firefox&pbk=ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE&security=reality&sni=www.microsoft.com&type=tcp#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://5c417415-5c79-4447-a8bd-fd9f73a89fb9@193.93.194.61:443?flow=xtls-rprx-vision&fp=firefox&pbk=ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE&security=reality&sni=www.microsoft.com&type=tcp#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
