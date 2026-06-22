@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-22 01:57 MSK
+# Merged: 2026-06-22 03:06 MSK
 
 vless://bcdb08d0-d6ea-4841-83bc-dee61353926d@bg.janusgate.org:443?type=tcp&headerType=none&security=reality&encryption=none&sni=bg.janusgate.org&fp=chrome&pbk=nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg&sid=9b8c895dde4803ed&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%7C%20%5BBL%5D
 vless://1ac9f6f1-06ed-4cc6-af67-d79a96618cf8@estoshka.1o0.net:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Fw2xfDpIesFqZuoH8IYBdTL160a7G5ReoEHL10HRjkw&sid=5063ba978295ebd4&sni=estoshka-cdn.1o0.net&spx=/#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
