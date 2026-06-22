@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-22 23:29 MSK
+# Merged: 2026-06-23 01:29 MSK
 
 vless://efbb8405-fe89-4830-bc05-e2d1b575f8b5@web.tututrutu.ru:2053?encryption=none&fp=chrome&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&security=reality&sid=0858af97f4e7324d&sni=web.tututrutu.ru&type=tcp#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%5BBL%5D
 vless://efbb8405-fe89-4830-bc05-e2d1b575f8b5@web.tututrutu.ru:2053?type=tcp&security=reality&encryption=none&fp=firefox&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&sid=0858af97f4e7324d&sni=web.tututrutu.ru#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Paulo%20%7C%20%5BBL%5D
