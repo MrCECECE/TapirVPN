@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-23 22:00 MSK
+# Merged: 2026-06-24 00:21 MSK
 
 vless://5e1083b9-4d4f-50ef-93e7-6e966dfce1f9@denmark.cloudpath.live:443?type=tcp&security=reality&sni=microsoft.com&pbk=8H8GZYml4FGVF9EcnZsUTOt0lFiIh20vS9TnX4Dn-z8&sid=2721a041&fp=chrome&mux=true&muxConcurrency=8&fragment=100-200,10-20,tlshello#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://33de2596-d95d-412b-a8c2-410be7060ca3@186.246.6.10:443?flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=fi.sellflow.org&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
