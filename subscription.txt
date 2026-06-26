@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-06-26 11:46 MSK
+# Merged: 2026-06-26 14:36 MSK
 
 vless://5fdf2809-9b94-4c77-bd50-81027af9cef4@104.143.0.175:443?flow=xtls-rprx-vision&fp=firefox&packetencoding=xudp&pbk=vrVQUS7kxjMbHBQGiMS1MO_G2Ib7dEDeJhyPtvHB1n8&security=reality&sid=0831ac40b4eee18c&sni=austria.anotherboring.top&type=tcp#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D
 vless://5fdf2809-9b94-4c77-bd50-81027af9cef4@austria.anotherboring.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=austria.anotherboring.top&fp=qq&pbk=vrVQUS7kxjMbHBQGiMS1MO_G2Ib7dEDeJhyPtvHB1n8&sid=0831ac40b4eee18c&packetEncoding=xudp#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%28Floridsdorf%29%20%7C%20%5BBL%5D
