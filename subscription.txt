@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-01 10:01 MSK
+# Merged: 2026-07-01 13:59 MSK
 
 vless://a1fbffe9-8e5a-5a0e-9333-045d32eccd59@belgium.cloudpath.live:443?security=reality&type=tcp&sni=microsoft.com&fp=chrome&sid=cc52201b&pbk=9HzeVOO-_7-V3l4TCNqgO-cj32nlF3wsG8K4X3qFmFw&encryption=none#%F0%9F%87%A7%F0%9F%87%AA%20Belgium%2C%20Brussels%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://e84c124e-b176-409c-a6b6-69844127bdfa@media.nothingchange.com:10443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=eKyUyIzbzn0TL5ip_00Buvum95qnWy8gTCwjZvv-olc&sid=3f7b1e5a9c2d8f46&sni=media.nothingchange.com#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%28Old%20Toronto%29%20%7C%20%5BBL%5D
