@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-02 01:11 MSK
+# Merged: 2026-07-02 03:00 MSK
 
 vless://6429d1d5-de69-4758-9046-e72861a40cb9@193.233.91.230:11443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=chrome&sni=5post-gate.x5.ru&pbk=WF3RXrggPm9ILy5KS7-N9rfBi7d1rgZAkK4X2Owstlk#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Montreal%20%7C%20%5BBL%5D
 vless://6429d1d5-de69-4758-9046-e72861a40cb9@caz.sempai.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=caz.sempai.site&fp=chrome&pbk=nbr8JS9UmOAW_QQcedGUIMcEd2Tt3WtrCunaZV8BuVs&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
