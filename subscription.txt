@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-03 21:06 MSK
+# Merged: 2026-07-03 23:07 MSK
 
 vless://1d69b662-74b4-46e4-8353-7c48e11ab9cd@edge-bg-sof.cdn.sx:2083?security=tls&encryption=none&insecure=0&headerType=&fp=firefox&type=tcp&allowInsecure=0#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%2C%20Sofia%20%28Sveta%20Troitsa%29%20%7C%20%5BBL%5D
 vless://bad760fb-e66b-4e5d-a62c-ebf5a91d08b8@fin31.official-happ.ru:35381?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
