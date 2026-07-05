@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-05 17:23 MSK
+# Merged: 2026-07-05 18:58 MSK
 
 vless://83c7f81b-4f26-405d-9a55-4e164249cbdd@eidos.chick-team.ru:443?encryption=none&type=tcp&security=reality&fp=firefox&pbk=DZ9WtBLSxRMvAzBMjcaAX9LCQztQkIks4UUQ4gsPtQA&sni=eidos.chick-team.ru&sid=975205ed8e68eced&flow=xtls-rprx-vision#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D
 vless://42387f58-fc1c-45dc-b224-b1c086e0bf64@185.17.0.39:9443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.tesla.com&fp=firefox&pbk=6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0&sid=be0191cc&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
