@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-07 19:14 MSK
+# Merged: 2026-07-07 21:52 MSK
 
 vless://fa792181-23a8-41fd-9048-94d9f0d574f6@alba.ardor-cloud.ru:444?allowInsecure=1&flow=&fp=chrome&pbk=wgxjTlVuBIi8T-QRQ2tmmH57seIfKCdE2pBGNWXcOCo&security=reality&serviceName=web.max.ru&sid=8614956789abcdef&sni=web.max.ru&type=grpc#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://0b08b1c4-342a-4992-ac5f-5b9eff2327a0@20.151.233.69:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=safari&pbk=dalyPgxW_YMUf1O3cgNWc-3XDeShAzU43307V4rBr3s&sid=64597fca#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D
