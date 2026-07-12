@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-12 10:54 MSK
+# Merged: 2026-07-12 12:40 MSK
 
 vless://01dfcada-2cef-4b85-86f2-7183df189918@199.181.197.73:80?path=%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh&security=&encryption=none&host=zeus-panel-ib4w5o.mrs-nazir-sherzad.workers.dev&fp=android&type=ws&sni=zeus-panel-ib4w5o.mrs-nazir-sherzad.workers.dev#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D
 vless://0b08b1c4-342a-4992-ac5f-5b9eff2327a0@20.151.233.69:443?security=reality&encryption=none&pbk=dalyPgxW_YMUf1O3cgNWc-3XDeShAzU43307V4rBr3s&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=64597fca#%F0%9F%87%A8%F0%9F%87%A6%20Canada%2C%20Toronto%20%7C%20%5BBL%5D
