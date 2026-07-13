@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-13 14:47 MSK
+# Merged: 2026-07-13 16:57 MSK
 
 vless://42455ebe-1c84-479a-9bac-6433c30f8d19@vasquez.gg-linkvault.ru:48932?encryption=none&security=reality&sni=cdn6-30.yahoo.com&fp=firefox&pbk=Dl4-nKAkksLHmX2yR0LWAzyFBjIj1W10R4OxHKMX2AI&type=xhttp&path=%2F&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingBytes%22%3A%22333-1777%22%2C%22scMaxBufferedPosts%22%3A30%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22scStreamUpServerSecs%22%3A%2220-80%22%7D#%F0%9F%87%A6%F0%9F%87%B9%20Austria%2C%20Vienna%20%7C%20%5BBL%5D
 vless://42455ebe-1c84-479a-9bac-6433c30f8d19@norris.gg-linkvault.ru:48932?encryption=none&security=reality&sni=cdn1-67.yahoo.com&fp=firefox&pbk=Dl4-nKAkksLHmX2yR0LWAzyFBjIj1W10R4OxHKMX2AI&allowinsecure=0&type=xhttp&mode=auto&path=%2F&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A%2264-128%22%2C%22maxConcurrency%22%3A%2216-32%22%2C%22maxConnections%22%3A0.0%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%2C%22noSSEHeader%22%3Atrue%2C%22xPaddingBytes%22%3A%22333-1777%22%2C%22scMaxBufferedPosts%22%3A30.0%2C%22scMaxEachPostBytes%22%3A1000000.0%2C%22scMinPostsIntervalMs%22%3A30.0%2C%22scStreamUpServerSecs%22%3A%2220-80%22%7D#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
