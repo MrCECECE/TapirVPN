@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-16 10:13 MSK
+# Merged: 2026-07-16 12:53 MSK
 
 vless://d407defe-cd4f-4d32-a3b1-47c2c813c50d@31.43.191.131:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M&security=reality&sni=tehno.store&type=tcp#%F0%9F%87%A6%F0%9F%87%BF%20Azerbaijan%2C%20Baku%20%7C%20%5BBL%5D
 vless://c50680f6-8dc9-44cc-a8fe-72cab1f7f51b@87.252.237.100:8443?type=tcp&security=reality&sni=tradingview.com&fp=firefox&pbk=VE6aUAkSRew5ySZw80myEtL1LOWwDo7BuYyuIKaYPUI&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%BE%20Belarus%2C%20Minsk%20%7C%20%5BBL%5D
