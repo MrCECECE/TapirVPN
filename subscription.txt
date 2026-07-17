@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-17 07:50 MSK
+# Merged: 2026-07-17 10:07 MSK
 
 vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@cur01.myxasecure.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=cur01.myxasecure.space&fp=qq&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Larnaca%20%7C%20%5BBL%5D
 vless://13b55e8e-fbea-4ee1-b6b7-115fa3043182@cz.srv.anti-zapret.com:443?type=tcp&security=reality&flow=xtls-rprx-vision&encryption=none&sni=cz.srv.anti-zapret.com&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=17faf32cb516c9cb&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
