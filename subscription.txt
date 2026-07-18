@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-18 02:40 MSK
+# Merged: 2026-07-18 04:16 MSK
 
 vless://3da2625a-5925-42ad-ad50-b03124b41e54@13.140.29.192:443?encryption=none&fp=firefox&pbk=18v5wyhLfN0F4DPllINqZWfdW_clrJyX5mFmTE4RSlg&security=reality&sid=db4b1632&sni=support.apple.com&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://9c94ca87-9cb4-4a9f-a11b-a5b4d2312a87@13.140.29.192:443?encryption=none&fp=chrome&pbk=18v5wyhLfN0F4DPllINqZWfdW_clrJyX5mFmTE4RSlg&security=reality&sid=db4b1632&sni=support.apple.com&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
