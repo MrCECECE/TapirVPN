@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-24 15:10 MSK
+# Merged: 2026-07-24 17:41 MSK
 
 vless://45a390ed-0ddb-4dc3-8b5e-2fee9d044665@104.156.85.44:80?encryption=none&security=none&type=xhttp&host=lowtechdevelopersltd.co.uk&path=%2Fvideo%3Fed%3D1024&mode=auto#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://6eca3cb7-eab5-4a96-b95d-444eb566309b@sgaws.ccwink.photos:51227?type=tcp&security=reality&sni=docs.aws.amazon.com&fp=firefox&flow=xtls-rprx-vision&pbk=Zt1a3po4F6TVMXZ3LrDK-8kxjHuRzJA9l1QKRDiGEU0&sid=1526f2#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
