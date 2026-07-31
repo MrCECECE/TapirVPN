@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-07-31 20:15 MSK
+# Merged: 2026-07-31 22:03 MSK
 
 vless://39c42b0a-b823-4c93-bb99-74b4183e518d@api.getsavesafe.net:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=XyVDRn9DwbR6_bZPiGGz0jgCONpfH5LVbDaUejtiuTA&type=xhttp&sni=api.getsavesafe.net&sid=16f5b3bddf7f68ae&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://39c42b0a-b823-4c93-bb99-74b4183e518d@api.getsavesafe.net:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=XyVDRn9DwbR6_bZPiGGz0jgCONpfH5LVbDaUejtiuTA&type=xhttp&sni=api.getsavesafe.net&sid=16f5b3bddf7f68ae&fp=qq#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
