@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-04 00:55 MSK
+# Merged: 2026-08-04 01:51 MSK
 
 vless://04b9e828-43ed-4faf-8952-41069ec08355@ddc-akn.astralweb.tech:443/?type=tcp&encryption=none&flow=&security=tls&sni=ddc-akn.astralweb.tech&alpn=h2&packetEncoding=xudp&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://04b9e828-43ed-4faf-8952-41069ec08355@ddc-akn.astralweb.tech:443/?type=tcp&encryption=none&flow=&security=tls&sni=ddc-akn.astralweb.tech&alpn=h2&packetEncoding=xudp&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
