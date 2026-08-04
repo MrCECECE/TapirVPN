@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-04 19:03 MSK
+# Merged: 2026-08-04 21:20 MSK
 
 vless://70df38ff-5a22-4ffc-a3f9-1725515e0ea5@205.237.109.215:448?type=tcp&security=reality&pbk=IuB1jsALd-wN_8jRTGxVLBbVG5eSxNbOXjvFyZlm3UU&fp=chrome&sni=www.samsung.com&sid=113241ad01e99a2d#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://d516ffe9-f519-3c47-872b-666249bdc7b7@family.bucket.8.kfc-520.com:10026?&security=reality&flow=xtls-rprx-vision&pbk=-iZh6xpEREbTssMskcpNOjrqzHuDTb3t5Mg9L7t9qXM&sid=017184&fp=firefox&sni=www.hp.com&type=tcp&headerType=none&host=www.hp.com&path=%2F#%F0%9F%87%A6%F0%9F%87%BA%20Australia%2C%20Sydney%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
