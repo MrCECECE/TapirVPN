@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-05 02:51 MSK
+# Merged: 2026-08-05 04:20 MSK
 
 vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.118:448?type=tcp&security=reality&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&fp=chrome&sni=www.samsung.com&sid=e1bdc95c1554c8eb#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://18f71148-a3c7-40c7-b02a-be04da72efe3@pro-ru-bridge.emrata.top:443?type=tcp&security=reality&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&fp=firefox&sni=pro-ru-bridge.emrata.top&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20Aparecida%20de%20Goi%C3%A2nia%20%7C%20%5BBL%5D
