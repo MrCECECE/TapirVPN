@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-11 20:46 MSK
+# Merged: 2026-08-11 21:42 MSK
 
 vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@201.34.141.83:443?encryption=none&flow=xtls-rprx-vision&pbk=Oo6WRP0tgvO-WVZSjCf5PDrPVJ-IoYwiilK9g3__8C4&security=reality&sid=cba0dcfd9c4f36&sni=ya.ru&type=tcp&fp=android#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20%7C%20%5BBL%5D
 vless://16ab4d4a-fd81-4535-9b7b-346677226ce8@201.34.141.83:443?encryption=none&flow=xtls-rprx-vision&pbk=Oo6WRP0tgvO-WVZSjCf5PDrPVJ-IoYwiilK9g3__8C4&security=reality&sid=cba0dcfd9c4f36&sni=ya.ru&type=tcp&fp=chrome#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20%7C%20%5BBL%5D
