@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-11 15:36 MSK
+# Merged: 2026-08-11 17:09 MSK
 
 vless://a6d08a18-3244-471c-8af0-56ddecbb7897@netherlands1.banovano.space:8443?type=grpc&security=reality&encryption=none&sni=dl.google.com&pbk=ySGdExSQZ93z67nSi9jbIEdDkCjc1ZgnqXmH2qeBdE0&sid=660cd5e2&mode=gun&spx=%2F&fp=android#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://a6d08a18-3244-471c-8af0-56ddecbb7897@netherlands1.banovano.space:8443?type=grpc&security=reality&encryption=none&sni=dl.google.com&pbk=ySGdExSQZ93z67nSi9jbIEdDkCjc1ZgnqXmH2qeBdE0&sid=660cd5e2&mode=gun&spx=%2F&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
