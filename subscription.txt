@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-14 19:38 MSK
+# Merged: 2026-08-14 20:42 MSK
 
 vless://81df88b4-ab24-4510-dc5f-7ebdbf24ff0a@k1.cloud--vpn.site:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=none&sni=ssl.fastly.com&allowInsecure=0&insecure=0&fp=android#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://81df88b4-ab24-4510-dc5f-7ebdbf24ff0a@k1.cloud--vpn.site:443?security=tls&type=ws&path=%2F&host=c12.com&packetEncoding=none&sni=ssl.fastly.com&allowInsecure=0&insecure=0&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
