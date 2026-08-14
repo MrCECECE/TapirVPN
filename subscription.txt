@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-14 22:40 MSK
+# Merged: 2026-08-14 23:19 MSK
 
 vless://932a9656-d5ec-4ab0-a56e-4755f5420171@gg1.serviceoda.ru:8443?security=reality&encryption=none&pbk=Tl0GCbgfsNHxGGN0TzZt3_OFsPc4xe1kMkn_L3qwiS8&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=3d8b549801de&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://932a9656-d5ec-4ab0-a56e-4755f5420171@gg1.serviceoda.ru:8443?security=reality&encryption=none&pbk=Tl0GCbgfsNHxGGN0TzZt3_OFsPc4xe1kMkn_L3qwiS8&headerType=&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=3d8b549801de&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
