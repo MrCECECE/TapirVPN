@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-19 09:21 MSK
+# Merged: 2026-08-19 10:28 MSK
 
 vless://1a22ccf1-7d1d-4043-8a90-1026b15fa2df@fr.pollcenter.site:34156?encryption=none&type=tcp&security=reality&sni=www.yahoo.com&fp=chrome&pbk=BsCp88E9PdpEDjC5bxLMP2tiJYK6afCPQT_CoxCVgAI&sid=d6cdfdd9a21f8d23&allowInsecure=1#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://61a9e550-7b16-445c-9f9e-741139cf3994@37.252.23.132:44006?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=cVZg8AuCM1z8Z_u9oz3otZKsBcOI1Yav66U5Wbb_ozg&security=reality&sid=20&sni=pool-a.pools.netcenter-cdn.com&type=tcp#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
