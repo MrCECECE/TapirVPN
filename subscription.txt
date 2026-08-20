@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-20 13:17 MSK
+# Merged: 2026-08-20 14:15 MSK
 
 vless://7badb118-3c57-4591-8b20-0ef1b5c209d1@netherlands.me.hoomaxconnect.ir:443?security=none&encryption=none&headerType=none&type=tcp#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://20595050-84c7-40e6-b9e3-cf90c99f8a4c@212.80.218.161:443?encryption=none&security=tls&sni=fin4.wba-pn.ru&insecure=0&allowInsecure=0&type=ws&host=fin4.wba-pn.ru&path=%2F&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
