@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-22 12:15 MSK
+# Merged: 2026-08-22 13:10 MSK
 
 vless://10d192cd-66ab-2817-39ac-a8f8a0dd95e1@64.49.38.8:8443?security=reality&type=grpc&serviceName=TunService&mode=gun&sni=download.autodesk.com&fp=chrome&pbk=92KJ-ibs1qTy8nODGrHTW8T0b_trG7McLYv8My9o2EE#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://10d192cd-66ab-2817-39ac-a8f8a0dd95e1@89.47.55.6:443?security=reality&type=xhttp&path=%2F&sni=www.canon.com&fp=chrome&pbk=iVDh09Vm2DqZMNQoUdf-LCZ6TqVGb9mLXnClAK2LRj4#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
