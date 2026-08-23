@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-23 09:19 MSK
+# Merged: 2026-08-23 10:23 MSK
 
 vless://1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba@restore.anti-zapret.com:443?encryption=none&security=reality&sni=restore.anti-zapret.com&pbk=0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY&sid=cbb0a5c1dc905505&flow=xtls-rprx-vision&fp=chrome#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://2e9d3568-f977-4cea-800d-fd9a876e7252@45.157.235.69:9443?encryption=none&flow=xtls-rprx-vision&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&security=reality&sid=2f49bccf11150ef2&sni=static.vkimages.io&type=tcp&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
