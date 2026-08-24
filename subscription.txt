@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-24 13:25 MSK
+# Merged: 2026-08-24 14:16 MSK
 
 vless://22fff84b-dd89-489d-bc4c-794f664b92a2@store20.vevluma.ir:1234?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=updates.cdn-apple.com&fp=chrome&pbk=4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI&sid=4844fb0c077b20b7&allowInsecure=1#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://35dc1a9b-c02c-4670-a3f9-1f8106567f14@tr.propollcenter.site:34156?encryption=none&type=tcp&security=reality&sni=yahoo.com&fp=chrome&pbk=BsCp88E9PdpEDjC5bxLMP2tiJYK6afCPQT_CoxCVgAI&sid=d6cdfdd9a21f8d23&allowInsecure=1#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
