@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-25 09:23 MSK
+# Merged: 2026-08-25 10:34 MSK
 
 vless://4005ddae-29bb-431e-a212-7737316d08ea@185.173.147.6:10444?encryption=none&security=none&type=ws&host=vpnpolar.online&path=%2Fbeeline&fp=firefox#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf@polnoad.whooisthebest.ir:22216?security=reality&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&pbk=sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU&headerType=none&fp=chrome&type=tcp&sni=amp-api-edge.apps.apple.com&sid=0f4412d42129f080#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
