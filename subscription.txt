@@ -4,7 +4,7 @@
 # ping-type: proxy
 # check-url-via-proxy: https://cp.cloudflare.com/generate_204
 # profile-update-interval: 1
-# Merged: 2026-08-26 01:13 MSK
+# Merged: 2026-08-26 02:14 MSK
 
 vless://8ff82100-8aad-4281-bf41-f318519d7182@46.20.105.130:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=ar.jobinvest.ru&type=tcp#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Lanus%20%7C%20%5BBL%5D
 vless://8ff82100-8aad-4281-bf41-f318519d7182@46.20.105.132:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=ar.jobinvest.ru&type=tcp#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%2C%20Lanus%20%7C%20%5BBL%5D
